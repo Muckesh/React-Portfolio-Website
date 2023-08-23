@@ -121,15 +121,19 @@ section:nth-child(even) {
     background: #22223f;
 }
 
-section > h3 {
+section > h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
+}
+section > h3{
+    text-align: center;
+    /* margin-bottom: 3rem; */
 }
 
 section > p {
     text-align: center;
-    margin-bottom: 1rem;
-    /* width: 40%; */
+    margin: 0.5rem auto 4rem;
+    width: 40%;
 }
 
 
@@ -195,6 +199,7 @@ img {
 .btn:hover {
     background-color: transparent;
     border-color: var(--color-light);
+    color: var(--color-white);
     transform: translateY(-0.5rem);
 }
 
@@ -233,6 +238,7 @@ img {
 .mr-robot{
     font-family: mr-robot;
     color: red;
+    letter-spacing: 0.2rem;
 }
 
 

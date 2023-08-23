@@ -14,7 +14,7 @@ const Experiences = ({experiences}) => {
                 <VerticalTimelineElement key={experience.id} className="vertical-timeline-element--education" iconStyle={{background:'#4db5ff',color:'#fff'}}
                 icon={experience.category === "Education"?<FaGraduationCap/>:<BsBriefcaseFill/>}
                 date={experience.date}>
-                  <h4>{experience.title}</h4>
+                  <h4 className="dark-text">{experience.title}</h4>
                   <p>lorem30 jkask san</p>
                     
                 </VerticalTimelineElement>

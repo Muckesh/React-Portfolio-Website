@@ -21,12 +21,12 @@ const Portfolio = () => {
   
   return (
     <section id="portfolio">
-      
+      <h3 className='mr-robot'>Code Conquests</h3>
       <p>
-      Look Out My
+      Inspect a Few of My Endeavors, Friend.
       </p>
       {/* Digital Enigmas */}
-      <h3 className='mr-robot'>Digital Exploits</h3>
+      
       <div className="container portfolio__container">
         <ProjectCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>
         <Projects projects={projects}/>

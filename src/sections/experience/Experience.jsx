@@ -28,12 +28,12 @@ const Experience = () => {
   }
 
   return (
-    <section id="experience">
-      
+    <section id="experience" data-aos="fade-in">
+      <h3 className='mr-robot'>Digital Journey</h3>
       <p>
-        My Education and Work Experience!
+      Peek into my journey through academia and the digital domains of work
       </p>
-      <h3 className='mr-robot'>My Experience</h3>
+      
 
       {/* <div className="container portfolio__container"> */}
         <ExperienceCategories categories={uniqueCategories} onFilterExperiences={filterExperienceHandler}/>

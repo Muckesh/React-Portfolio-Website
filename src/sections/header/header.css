@@ -1,6 +1,6 @@
 header {
-    margin-top: 5rem;
-    height: calc(100vh - 5rem);
+    margin-top: 3.5rem;
+    height: calc(100vh - 3.5rem);
     display: grid;
     place-items: center;
     /* background: var(--color-white); */
@@ -17,7 +17,7 @@ header {
 
 .header__profile {
     width: 18rem;
-    height: 22rem;
+    height: 21rem;
     border-radius: 9rem 9rem 2rem 2rem;
     overflow: hidden;
     margin-bottom: 1.5rem;
@@ -36,6 +36,12 @@ header {
     100%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+.header__container h5 {
+   
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .header__container p {

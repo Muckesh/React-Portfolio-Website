@@ -15,7 +15,9 @@ const Header = () => {
         <div className="header__profile" data-aos = "fade-in" >
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3 data-aos = "fade-up" className='mr-robot'>Muckesh K S</h3>
+        <h5>Hello Friend!</h5>
+        {/* <br/> */}
+        <h3 data-aos = "fade-up" >I'm <span className='mr-robot'>Muckesh K S</span></h3>
         <p data-aos = "fade-up">
         You are a click away from building your dream website or web app. Send me the details of your project for a modern, mobile responsive, highly performant website today!
         </p>

@@ -6,9 +6,9 @@ import './skills.css'
 const Skills = () => {
   return (
     <section id="skills" >
+      <h3 className='mr-robot'>Tech Expertise</h3>
+      <p>Dive into my arsenal of tech expertise in various digital domains.</p>
       
-      <p>Tech's That I am Good at...</p>
-      <h3 className='mr-robot'>My Skills</h3>
       <div className="container skills__container">
         {/* <div className="skills__left">
           <div className="skills__portrait">

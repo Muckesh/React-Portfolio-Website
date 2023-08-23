@@ -10,11 +10,11 @@ const Contact = () => {
   },[])
   return (
     <section id='contact'>
-      
-      <p>
-      Get In Touch
-      </p>
       <h3 className='mr-robot'>Ping Me</h3>
+      <p>
+      Transmit a message through any of the links below.
+      </p>
+      
       <div className="container contact__container" data-aos = "fade-up"  >
         {
           contacts.map(contact => <a key={contact.id} href={contact.link} target='_blank' rel='noopener noreferrer'>{contact.icon}</a>)

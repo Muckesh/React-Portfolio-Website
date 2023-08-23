@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/images/bitmoji1.jpg'
+// import AboutImage from '../../assets/images/bitmoji1.jpg'
 import CV from '../../assets/images/linux.jpg'
 import {HiDownload} from 'react-icons/hi'
 import Card from '../../components/Card'
@@ -7,8 +7,11 @@ import './about.css'
 const About = () => {
   return (
     <section id="about" >
-      <p>Get To Know</p>
+      {/* <p>Get To Know</p> */}
+      {/* <h2 className='mr-robot'>Whoami</h2> */}
       <h3 className='mr-robot'>Whoami</h3>
+
+      <p>Uncover the enigma behind the screen. Discover the mysteries that define me.</p>
       <div className="container about__container">
         {/* <div className="about__left">
           <div className="about__portrait">
