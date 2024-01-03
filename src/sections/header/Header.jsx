@@ -19,6 +19,7 @@ const Header = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+
   // useEffect(() => {
   //   AOS.init({ duration: 2000 });
   // }, []);
