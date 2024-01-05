@@ -30,8 +30,8 @@ circles.forEach(function (circle, index) {
   circle.style.backgroundColor = colors[index % colors.length];
 });
 window.addEventListener("mousemove", function (e) {
-  coords.x = e.pageX;
-  coords.y = e.pageY;
+  coords.x = e.clientX;
+  coords.y = e.clientY;
 });
 
 function animateCircles() {
