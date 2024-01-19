@@ -13,7 +13,6 @@ import Experience from "./sections/experience/Experience";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Skills from "./sections/skills/Skills";
-import ParticlesBackground from "./components/ParticlesBackground";
 
 const App = () => {
   // const mainRef = useRef();
@@ -75,6 +74,7 @@ const App = () => {
         <div className="pointer"></div>
       </div> */}
       <Header />
+
       <About />
       <Skills />
       <Experience />

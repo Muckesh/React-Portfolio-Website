@@ -10,7 +10,7 @@ const data = [
     {id: 2, icon: <TbBrandReact/>, title: 'Programmer', desc:"180+ Completed",},
     {id: 3, icon: <SiFlutter/>, title: 'App Developer', desc:"70+ Happy Clients",},
     {id: 4, icon: <BiHappyHeartEyes/>, title: 'Web Developer', desc:"70+ Happy Clients",},
-    {id: 5, icon: <BiHappyHeartEyes/>, title: 'Clients', desc:"70+ Happy Clients",},
+    // {id: 5, icon: <BiHappyHeartEyes/>, title: 'Clients', desc:"70+ Happy Clients",},
     
 ]
 

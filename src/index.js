@@ -77,8 +77,8 @@ document.addEventListener("mouseleave", () => {
 // document.body.appendChild(cursor);
 
 // document.addEventListener("mousemove", (e) => {
-//   cursor.style.left = e.pageX + "px";
-//   cursor.style.top = e.pageY + "px";
+//   cursor.style.left = e.clientX + "px";
+//   cursor.style.top = e.clientY + "px";
 // });
 
 // document.addEventListener("mouseenter", () => {

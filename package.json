@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.96.1",
+    "@react-three/fiber": "^8.15.14",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "framer-motion": "^10.16.16",
+    "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -15,10 +18,10 @@
     "react-scroll": "^1.9.0",
     "react-scrollspy": "^3.4.3",
     "react-simple-typewriter": "^5.0.1",
-    "react-tsparticles": "^2.12.2",
     "react-ui-scrollspy": "^2.3.0",
     "react-vertical-timeline-component": "^3.6.0",
     "swiper": "^10.1.0",
+    "three": "^0.160.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

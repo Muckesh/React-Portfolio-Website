@@ -20,16 +20,16 @@ const About = () => {
         </div> */}
         <div className="about__right">
           
-          <div className="about__cards" data-aos = "fade-in">
+          {/* <div className="about__cards" data-aos = "fade-in">
             {
               data.map(item=>(
               <Card key={item.id} className="about__card">
                 <span className='about__card-icon'>{item.icon}</span>
                 <h5>{item.title}</h5>
-                {/* <small>{item.desc}</small> */}
+                <small>{item.desc}</small>
               </Card>))
             }
-          </div>
+          </div> */}
             <p>
             I'm a digital alchemist, transforming lines of code into visual poetry. With a passion for creativity and an unwavering commitment to innovation, I navigate the digital realm, crafting immersive experiences that defy convention. Join me on this journey through the binary wilderness, where pixels dance to the rhythm of imagination.
             </p>
