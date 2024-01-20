@@ -1,12 +1,17 @@
-.skills__container {
-  /* display: grid;
+/* .skills__container { */
+/* display: grid;
     grid-template-columns: 35% 40%;
     gap: 8%; */
-  /* display: flex;
+/* display: flex;
     justify-content: center;
     flex-direction: column; */
-  /* gap: 1rem; */
-  /* gap: 2rem; */
+/* gap: 1rem; */
+/* gap: 2rem; */
+/* } */
+
+.skills__container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .skills__portrait {
@@ -20,27 +25,45 @@
   border-width: 0;
 }
 
+.skills__card {
+  width: 35vw;
+  text-align: center;
+}
 .skills__cards {
   margin: 3rem 0 1.5rem;
   display: grid;
   /* grid-template-columns: repeat(5, 1fr); */
 
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
 .card.skills__card {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__card-item {
+  margin: 0.8rem;
+  display: flex;
+  flex-direction: row; /* Align items vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .skills__card-icon {
   font-size: 1.3rem;
+  /* margin:0.5rem; */
   color: var(--color-black);
   border-radius: var(--border-radius-3);
   width: fit-content;
-  margin-inline: auto;
+  margin-right: 5.5rem;
   padding: 0.6rem;
   display: flex;
+
   align-items: center;
   transition: var(--transition);
   /* changes */
@@ -57,6 +80,10 @@
     background: var(--color-light);
     color: var(--color-primary);
 } */
+
+.skills__card-item p {
+  margin: 0;
+}
 
 .card.skills__card h5 {
   margin: 1rem 0;
@@ -80,7 +107,7 @@
         grid-template-columns: 1fr;
     } */
   .skills__cards {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .skills__right h2 {
     text-align: center;
