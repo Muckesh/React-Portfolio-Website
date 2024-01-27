@@ -1,10 +1,19 @@
 // import AboutImage from '../../assets/images/bitmoji1.jpg'
 import CV from "../../assets/images/linux.jpg";
+import { useEffect } from "react";
 import { HiDownload } from "react-icons/hi";
 import Card from "../../components/Card";
 import data from "./data";
 import "./about.css";
 const About = () => {
+  useEffect(() => {
+    const text = document.querySelector('.text p');
+    text.innerHTML = text.innerText.split('').map(
+      (char,i)=>
+      `<span style="transform:rotate(${i*8.3}deg)">${char}</span>`
+    ).join('');
+
+  }, []);
   return (
     <section id="about">
       {/* <p>Get To Know</p> */}
@@ -16,19 +25,16 @@ const About = () => {
         me.
       </p>
       <div className="container about__container">
-        <div className="about__left">
+        <div >
           {/* <div className="about__portrait">
             <img src={AboutImage} alt="About Img" />
           </div> */}
-          <div className="skills__cards" data-aos="fade-in">
-            {data.map((item) => (
-              // <Card key={item.id} className="skills__card">
-              <span className="skills__card-icon">{item.icon}</span>
-              //   <h5>{item.title}</h5>
-              //   {/* <small>{item.desc}</small> */}
-              // </Card>
-            ))}
+          <div className="circle">
+            <div className="text">
+              <p>Muckesh K S - App Developer Web Developer </p>
+            </div>
           </div>
+          
         </div>
         <div className="about__right">
           {/* <div className="about__cards" data-aos = "fade-in">

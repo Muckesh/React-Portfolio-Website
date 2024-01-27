@@ -18,22 +18,24 @@ const Skills = () => {
         <div className="skills__cards" data-aos="fade-in">
           <Card className="skills__card">
             <h4>Frontend</h4>
-            {frontendSkills.map((item) => (
-              <div key={item.id} className="skills__card-item">
-                <span className="skills__card-icon">{item.icon}</span>
-                <p>{item.title}</p>
-              </div>
-            ))}
+            <div className="skills__card-content">
+              {frontendSkills.map((item) => (
+                <div key={item.id} className="skills__card-item">
+                  <span className="skills__card-icon">{item.icon}</span>
+                </div>
+              ))}
+            </div>
           </Card>
 
           <Card className="skills__card">
             <h4>Backend</h4>
-            {backendSkills.map((item) => (
-              <div key={item.id} className="skills__card-item">
-                <span className="skills__card-icon">{item.icon}</span>
-                <p>{item.title}</p>
-              </div>
-            ))}
+            <div className="skills__card-content">
+              {backendSkills.map((item) => (
+                <div key={item.id} className="skills__card-item">
+                  <span className="skills__card-icon">{item.icon}</span>
+                </div>
+              ))}
+            </div>
           </Card>
         </div>
       </div>

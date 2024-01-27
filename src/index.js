@@ -67,6 +67,8 @@ document.addEventListener("mouseleave", () => {
   });
 });
 
+
+
 // const cursor = document.createElement("div");
 // cursor.classList.add("techy-cursor");
 

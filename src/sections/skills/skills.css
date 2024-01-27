@@ -25,33 +25,45 @@
   border-width: 0;
 }
 
-.skills__card {
-  width: 35vw;
-  text-align: center;
-}
+
 .skills__cards {
-  margin: 3rem 0 1.5rem;
+  margin: 0 0 0;
   display: grid;
   /* grid-template-columns: repeat(5, 1fr); */
 
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
 }
 
-.card.skills__card {
+.skills__card {
+  width: 55vw;
   text-align: center;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: column; /* Change to column for vertical alignment */
   align-items: center;
+  /* margin-top: 1rem; */
 }
-
+@keyframes rotateIcons {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.skills__card-content {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  justify-content: center; /* Adjust spacing as needed */
+  /* animation: rotateIcons 10s linear infinite; */
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 .skills__card-item {
   margin: 0.8rem;
   display: flex;
-  flex-direction: row; /* Align items vertically */
+
   align-items: center;
-  justify-content: center;
 }
 
 .skills__card-icon {
@@ -60,11 +72,12 @@
   color: var(--color-black);
   border-radius: var(--border-radius-3);
   width: fit-content;
-  margin-right: 5.5rem;
+  /* margin-right: 5.5rem; */
+  margin-right: 1rem;
   padding: 0.6rem;
   display: flex;
 
-  align-items: center;
+  /* align-items: center; */
   transition: var(--transition);
   /* changes */
   background: var(--color-primary);
@@ -81,9 +94,10 @@
     color: var(--color-primary);
 } */
 
-.skills__card-item p {
-  margin: 0;
-}
+/* .skills__card-item p {
+  margin-left: 0;
+  display: none;
+} */
 
 .card.skills__card h5 {
   margin: 1rem 0;
@@ -99,27 +113,27 @@
 
 /* Media Queries tablets */
 @media screen and (max-width: 1024px) {
-  .skills__left {
+  /* .skills__left {
     display: none;
-  }
+  } */
 
   /* .skills__container {
         grid-template-columns: 1fr;
     } */
-  .skills__cards {
-    grid-template-columns: repeat(1, 1fr);
+  .skills__card {
+    width: 75vw;
   }
-  .skills__right h2 {
+  /* .skills__right h2 {
     text-align: center;
-  }
+  } */
 }
 
 /* Media Queries phones */
 @media screen and (max-width: 600px) {
-  .skills__cards {
+  /* .skills__cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-  }
+  } */
 
   .skills__right .btn {
     margin-top: 2rem;

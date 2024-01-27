@@ -27,8 +27,10 @@ const Experiences = ({ experiences }) => {
           contentStyle={{ background: "#2c2c6c" }}
           date={experience.date}
         >
-          <h4 className="light-text">{experience.title}</h4>
-          <p>lorem30 jkask san</p>
+          <h4>{experience.organization}</h4>
+          <br />
+          <h5 className="light-text">{experience.title}</h5>
+          <p>{experience.desc}</p>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>

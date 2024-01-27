@@ -75,7 +75,7 @@ const App = () => {
       </div> */}
       <Header />
 
-      <About />
+      {/* <About /> */}
       <Skills />
       <Experience />
       {/* <Services/> */}

@@ -61,40 +61,6 @@
   margin-top: 2.5rem;
 }
 
-/* Skills */
-.skills__cards {
-  margin: 3rem 0 1.5rem;
-  display: grid;
-  /* grid-template-columns: repeat(5, 1fr); */
-
-  grid-template-columns: repeat(8, 1fr);
-  gap: 1.5rem;
-}
-
-.card.skills__card {
-  text-align: center;
-}
-
-.skills__card-icon {
-  font-size: 1.3rem;
-  color: var(--color-black);
-  border-radius: var(--border-radius-3);
-  width: fit-content;
-  margin-inline: auto;
-  padding: 0.6rem;
-  display: flex;
-  align-items: center;
-  transition: var(--transition);
-  /* changes */
-  background: var(--color-primary);
-  color: var(--color-white);
-}
-.skills__card-icon:hover {
-  background: var(--color-light);
-  color: var(--color-primary);
-  transform: translateY(-20%);
-  transition: var(--transition);
-}
 
 /* Media Queries tablets */
 @media screen and (max-width: 1024px) {
