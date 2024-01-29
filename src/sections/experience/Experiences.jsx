@@ -30,7 +30,13 @@ const Experiences = ({ experiences }) => {
           <h4>{experience.organization}</h4>
           <br />
           <h5 className="light-text">{experience.title}</h5>
-          <p>{experience.desc}</p>
+          <ul className="list">
+            {experience.desc.map((point, index) => (
+              <li className="list-item" key={index}>
+                {point}
+              </li>
+            ))}
+          </ul>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>

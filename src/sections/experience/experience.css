@@ -1,3 +1,7 @@
+/* #experience{
+    margin-left: 1rem;
+    margin-right: 1rem;
+} */
 .experience__categories {
     display: flex;
     justify-content: center;
@@ -21,4 +25,11 @@
 }
 .light-text{
     color: rgb(180, 173, 173);
+}
+.list{
+    padding-left: 20px;
+}
+.list-item{
+    list-style-type: disc;
+    
 }

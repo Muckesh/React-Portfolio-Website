@@ -3,12 +3,12 @@ import HeaderImage from "../../assets/images/meheader.png";
 import * as THREE from "three";
 import gsap from "gsap";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-
+import CV from "../../assets/images/linux.jpg";
+import { HiDownload } from "react-icons/hi";
 import data from "./data";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HeaderBackground from "../../components/HeaderBackground"; // Import the HeaderBackground component
 
 import "./header.css";
 
@@ -90,6 +90,8 @@ const Header = () => {
       mesh.scale.set(scaleFactor, scaleFactor, scaleFactor);
     };
     window.addEventListener("resize", handleResize);
+    // Initial setup for sphere scale
+    handleResize();
 
     // Mouse event listener
     let mouseDown = false;
@@ -158,6 +160,9 @@ const Header = () => {
             <a href="#contact" className="btn primary">
               Let's Talk
             </a>
+            {/* <a href={CV} download className="btn primary">
+              Resume <HiDownload />
+            </a> */}
             <a href="#portfolio" className="btn light">
               My Work
             </a>

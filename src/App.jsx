@@ -9,7 +9,6 @@ import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 import Experience from "./sections/experience/Experience";
-
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Skills from "./sections/skills/Skills";

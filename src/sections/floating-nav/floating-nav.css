@@ -29,7 +29,7 @@
   backdrop-filter: blur(20px);
 }
 .hover:hover{
-  background-color: red;
+  background-color: var(--color-primary);
   border-radius: 50%;
   transition: var(--transition);
 }
@@ -45,8 +45,12 @@
   background: var(--color-primary);
 }
 
+
 /* #floating__nav:hover {
   background-color: red;
+} */
+/* #floating__nav{
+  display: none;
 } */
 
 /* MEDIA QUERIES (tablets and phones */
