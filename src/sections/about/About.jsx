@@ -1,5 +1,5 @@
 // import AboutImage from '../../assets/images/bitmoji1.jpg'
-import CV from "../../assets/images/linux.jpg";
+// import CV from "../../assets/images/linux.jpg";
 import { useEffect } from "react";
 import { HiDownload } from "react-icons/hi";
 import Card from "../../components/Card";
@@ -59,9 +59,9 @@ const About = () => {
           {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, magni assumenda delectus quidem voluptatum perspiciatis? Maiores illum modi laboriosam nam repudiandae sit veniam ratione ex minima labore! Tenetur tempora, earum ducimus quaerat, autem, dolore porro optio officia praesentium expedita beatae?
             </p> */}
-          <a data-aos="fade-up" href={CV} download className="btn primary">
-            Download CV <HiDownload />
-          </a>
+          {/* <a data-aos="fade-up" href={CV} download className="btn primary"> */}
+            {/* Download CV <HiDownload /> */}
+          {/* </a> */}
         </div>
       </div>
     </section>

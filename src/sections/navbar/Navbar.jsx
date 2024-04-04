@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/black linux.jpg";
+// import Logo from "../../assets/images/black linux.jpg";
 import data from "./data";
 import { HiDownload } from "react-icons/hi";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav__container">
         <a href="index.html" className="nav__logo">
-          <img src={Logo} alt="Logo" />
+          {/* <img src={Logo} alt="Logo" /> */}
         </a>
         <ul className="nav__menu">
           {data.map((item) => (

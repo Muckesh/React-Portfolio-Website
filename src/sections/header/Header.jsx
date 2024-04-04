@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import HeaderImage from "../../assets/images/meheader.png";
+// import HeaderImage from "../../assets/images/meheader.png";
 import * as THREE from "three";
 import gsap from "gsap";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import CV from "../../assets/images/linux.jpg";
+// import CV from "../../assets/images/linux.jpg";
 import { HiDownload } from "react-icons/hi";
 import data from "./data";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
